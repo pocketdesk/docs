@@ -122,6 +122,31 @@ The honest takeaway: dynamic **legends** in hardware aren't a solved, buyable th
 typing keyboard — so pocketdesk gets its "dynamic layout" from the **software keymap**
 above, on a physical folding board.
 
+### If you type *looking at* the keys
+
+The rejections above assume **blind touch typing** (eyes on the glasses). If you instead
+type while looking at the keyboard — which the **see-through** glasses actually allow
+(glance down to your hands, up to the virtual screen) — the calculus shifts for **one**
+option:
+
+- **Display / e-ink keycaps (Nemeio)** regain their whole point. Dynamic legends are
+  *only* useful to someone who looks; for a blind typist they're invisible. And they keep
+  **real keys** (travel + landmarks). For frequent layout switchers (QWERTY/AZERTY/Dvorak,
+  per-app), it's the ideal — availability is the only catch. A **Stream Deck** complements
+  it as a look-at-it shortcut pad.
+- Flat surfaces (projection, glass/foldable) get *less bad* but still lack landmarks and
+  travel.
+
+**What about haptic feedback?** It helps less than you'd hope. A buzz/click on tap is
+**confirmation** ("the key registered") — useful — but it doesn't restore the two things
+blind/fast typing needs: **spatial landmarks** (finding keys, the F/J bumps, resting your
+fingers) and **travel / activation feel**. A phone has *one* non-localized motor; the buzz
+fires *after* contact. Localized fake-click haptics (Apple's Taptic Engine) work for a
+**single button or a trackpad**, not a ten-finger keyboard — and on a bare projected table
+there's nothing under your fingers to actuate at all. So haptics **narrows** the gap, it
+doesn't close it. Remember a physical key already *is* haptic feedback (the switch) — which
+is why a real folding keyboard beats any flat-surface-plus-haptics combo for sustained code.
+
 > [!NOTE]
 > **All input pairs in Android, not in the VM.** Pair the keyboard/trackpad/mouse under
 > *Settings → Connected devices*, then set your layout (QWERTY, AZERTY, QWERTZ, Dvorak…)
