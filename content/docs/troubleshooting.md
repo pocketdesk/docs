@@ -3,8 +3,6 @@ title: "Troubleshooting"
 weight: 8
 ---
 
-# Troubleshooting
-
 | Symptom | Where to look |
 |---|---|
 | Glasses show a black screen | Check the USB-C cable, force desktop mode, try 1080p |

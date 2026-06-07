@@ -3,8 +3,6 @@ title: "Overview"
 weight: 1
 ---
 
-# Overview
-
 pocketdesk is a **laptop-free development setup**. The phone is the computer; the
 glasses are the screen; a folding keyboard is the input. You get a real Linux
 desktop with VS Code, anywhere — on a train, a plane tray table, or a café.

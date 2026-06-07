@@ -3,8 +3,6 @@ title: "code-server (fallback)"
 weight: 7
 ---
 
-# code-server — the reliable fallback
-
 `code-server` runs VS Code as a **local web server**; you open it in the **Android
 browser**. It does not depend on the Wayland/X11 graphical layer, so it works even
 when:

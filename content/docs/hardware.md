@@ -3,8 +3,6 @@ title: "Hardware"
 weight: 2
 ---
 
-# Hardware
-
 | Item | Role | Connection |
 |---|---|---|
 | **Pixel 10 Pro XL** *(today)* / **11 Pro XL** *(tomorrow)* | The computer: desktop mode + Linux VM | — |

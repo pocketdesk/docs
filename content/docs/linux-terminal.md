@@ -3,8 +3,6 @@ title: "Linux Terminal"
 weight: 4
 ---
 
-# Enable the Linux Terminal (Debian VM)
-
 The graphical environment runs inside Android's built-in **Debian VM** (AVF/KVM).
 
 ## 1. Enable Developer Mode

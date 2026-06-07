@@ -3,8 +3,6 @@ title: "VS Code"
 weight: 6
 ---
 
-# VS Code (native GUI)
-
 Install VS Code as a Linux **ARM64** app inside the Debian VM.
 
 ## Install from the Microsoft repo

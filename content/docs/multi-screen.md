@@ -3,7 +3,7 @@ title: "Multi-screen (XR)"
 weight: 3
 ---
 
-# Multi-screen (XR) — glasses & where multi-screen lives
+*Which glasses — and where the "multiple screens" actually come from.*
 
 The glasses are just a **DisplayPort monitor you wear**. Any DP-Alt-Mode pair works for
 basic display; the differences that matter for coding are **spatial anchoring**

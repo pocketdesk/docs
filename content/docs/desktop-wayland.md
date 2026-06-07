@@ -3,8 +3,6 @@ title: "Wayland desktop"
 weight: 5
 ---
 
-# Wayland desktop (labwc)
-
 Android's Linux Terminal exposes a **Wayland** session. By default it has **no real
 window manager** — you install a Wayland compositor, which *is* the window manager.
 

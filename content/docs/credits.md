@@ -3,8 +3,6 @@ title: "Image credits"
 weight: 9
 ---
 
-# Image credits
-
 The **diagrams** on this site (the stack and multi-screen illustrations) are original
 work by the pocketdesk authors.
 
