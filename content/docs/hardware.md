@@ -25,6 +25,13 @@ Linux Terminal (Wayland + GPU) is, as of 2026, effectively a Pixel feature.
 - External output is typically **1080p / 1440p** (no 4K60 here) — a perfect match for
   the glasses' 1200p panels.
 
+> [!NOTE]
+> **Foldables work too — as the _computer_.** The **Pixel 9/10 Pro Fold** and **Samsung
+> Galaxy Z Fold** all expose DP Alt Mode (Samsung via DeX; Android 16 Desktop Mode is even
+> built on DeX's foundations), so they drive the glasses and run the VM fine. But the inner
+> screen is **not** a keyboard substitute — typing on glass kills the eyes-free typing the
+> glasses depend on. See the keyboard alternatives below.
+
 > [!WARNING]
 > **Pixel 11 Pro XL is unreleased (June 2026).** Leaked highlights: Tensor G6 on TSMC
 > 2 nm, new OLED panels, MediaTek M90 modem, *smaller* battery offset by efficiency.
@@ -109,6 +116,7 @@ Several "futuristic" input methods come up — all are real, all fail the
 | **Display keycaps (a screen per key)** | Art. Lebedev Optimus (OLED), Nemeio (e-ink) | The dream "dynamic legends" board — but Optimus is discontinued and Nemeio has been perennially delayed; neither folds. |
 | **Screen under transparent keys** | Finalmouse Centerpiece | Dynamic visuals through the keycaps, but premium, gaming-focused, non-folding, repeatedly delayed. |
 | **LCD-key macro pads** | Elgato Stream Deck, Mountain DisplayPad | Genuinely dynamic and shipping — but 6–32 keys: a shortcut pad, not something you type code on. |
+| **Foldable phone screen as keyboard** | Pixel Fold / Galaxy Z Fold "flex" mode | Great as the *computer* (DP Alt Mode), but its glass inner screen as a keyboard fights the glasses: typing on glass needs your eyes *down*, the glasses put them *up*. No tactile feedback, hot under load, no trackpad. |
 
 The honest takeaway: dynamic **legends** in hardware aren't a solved, buyable thing for a
 typing keyboard — so pocketdesk gets its "dynamic layout" from the **software keymap**
