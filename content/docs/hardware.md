@@ -88,16 +88,31 @@ in software regardless.
   hardware. This is what you'll actually use.
 - **Programmable firmware (QMK/VIA):** lets you remap keys in the keyboard itself, but
   the **printed legends stay fixed**. No mainstream *foldable* QMK board exists today.
-- **e-ink keycaps that re-label themselves:** the concept exists — **Nemeio** puts an
-  e-ink display under each of its 81 keys and can switch QWERTY ⇄ AZERTY ⇄ Dvorak (even
-  per-app) with the legends physically changing. But it's a full-size, non-folding board
-  whose release has been perennially delayed — treat it as aspirational, not a pocketdesk
-  pick.
+- **Display keycaps that re-label themselves:** the concept exists (e-ink/OLED under each
+  key — see the table below), but nothing buyable, reliable **and folding** exists today,
+  so it isn't a pocketdesk pick.
 
 Coding-specific buying notes:
 
 - Prefer layouts that keep **arrow keys + full-size Ctrl/Alt/Esc/Tab**. The XK01 does.
 - A **rigid surface** is required — folding keyboards flex on laps.
+
+### Tempting alternatives we don't recommend
+
+Several "futuristic" input methods come up — all are real, all fail the
+*actually-type-code* test:
+
+| Method | Examples | Why not for pocketdesk |
+|---|---|---|
+| **Laser projection keyboard** | Celluon Epic, Serafim Keybo | Pairs fine over Bluetooth, but no tactile feedback or key travel; slow and typo-prone at ten fingers; needs a flat matte surface and washes out in bright light. |
+| **Camera + AI "invisible" keyboard** | Samsung SelfieType (CES 2020) | The Pixel's camera could in theory track fingers on a bare table — but it never shipped as a product. |
+| **Display keycaps (a screen per key)** | Art. Lebedev Optimus (OLED), Nemeio (e-ink) | The dream "dynamic legends" board — but Optimus is discontinued and Nemeio has been perennially delayed; neither folds. |
+| **Screen under transparent keys** | Finalmouse Centerpiece | Dynamic visuals through the keycaps, but premium, gaming-focused, non-folding, repeatedly delayed. |
+| **LCD-key macro pads** | Elgato Stream Deck, Mountain DisplayPad | Genuinely dynamic and shipping — but 6–32 keys: a shortcut pad, not something you type code on. |
+
+The honest takeaway: dynamic **legends** in hardware aren't a solved, buyable thing for a
+typing keyboard — so pocketdesk gets its "dynamic layout" from the **software keymap**
+above, on a physical folding board.
 
 > [!NOTE]
 > **All input pairs in Android, not in the VM.** Pair the keyboard/trackpad/mouse under
