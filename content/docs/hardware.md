@@ -32,9 +32,9 @@ Linux Terminal (Wayland + GPU) is, as of 2026, effectively a Pixel feature.
 
 ## Glasses — Viture Beast
 
-{{< figure src="/images/products/ar-glasses-nreal-light.jpg" alt="AR glasses kit" width="430" caption="*Illustrative* — Nreal Light (Nreal is XReal's former name). The Beast / Luma Ultra / XReal 1S are different, newer models." attr="Mkkwan, CC BY-SA 4.0 (Wikimedia Commons)" attrlink="https://commons.wikimedia.org/wiki/File:Nreal_Light_Consumer_Kit.jpg" >}}
+{{< figure src="/images/products/ar-glasses-nreal-light.jpg" alt="XR display glasses kit" width="430" caption="*Illustrative* — Nreal Light (Nreal is XReal's former name). The Beast / Luma Ultra / XReal 1S are different, newer models." attr="Mkkwan, CC BY-SA 4.0 (Wikimedia Commons)" attrlink="https://commons.wikimedia.org/wiki/File:Nreal_Light_Consumer_Kit.jpg" >}}
 
-XR glasses that present as a **plug-and-play DisplayPort monitor**: one USB-C cable,
+XR display glasses that present as a **plug-and-play DisplayPort monitor**: one USB-C cable,
 no software needed for basic display.
 
 - **1920×1200 per eye**, micro-OLED, **120 Hz**, up to 1250 nits.

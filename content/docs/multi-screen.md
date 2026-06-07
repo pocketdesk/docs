@@ -1,9 +1,9 @@
 ---
-title: "Multi-screen (AR)"
+title: "Multi-screen (XR)"
 weight: 3
 ---
 
-# Multi-screen (AR) — glasses & where multi-screen lives
+# Multi-screen (XR) — glasses & where multi-screen lives
 
 The glasses are just a **DisplayPort monitor you wear**. Any DP-Alt-Mode pair works for
 basic display; the differences that matter for coding are **spatial anchoring**

@@ -17,7 +17,7 @@ toc: false
 
 <div class="hx:mb-12">
 {{< hextra/hero-subtitle >}}
-  Code in VS&nbsp;Code on Linux running on a Pixel, projected onto AR glasses,&nbsp;<br class="hx:hidden hx:sm:block" />driven by a folding keyboard. A real desktop — in your pocket. No laptop.
+  Code in VS&nbsp;Code on Linux running on a Pixel, projected onto XR display glasses,&nbsp;<br class="hx:hidden hx:sm:block" />driven by a folding keyboard. A real desktop — in your pocket. No laptop.
 {{< /hextra/hero-subtitle >}}
 </div>
 
@@ -34,7 +34,7 @@ toc: false
   >}}
   {{< hextra/feature-card
     title="Glasses are the screen"
-    subtitle="USB-C DisplayPort drives the AR glasses as a 1200p wearable monitor — Viture Beast / Luma Ultra or XREAL 1S."
+    subtitle="USB-C DisplayPort drives the XR display glasses as a 1200p wearable monitor — Viture Beast / Luma Ultra or XREAL 1S."
   >}}
   {{< hextra/feature-card
     title="Folding keyboard"
@@ -51,7 +51,7 @@ toc: false
 {{< cards >}}
   {{< card link="overview/" title="Overview" subtitle="What this is and why it works" >}}
   {{< card link="hardware/" title="Hardware" subtitle="Phone, glasses, keyboard" >}}
-  {{< card link="multi-screen/" title="Multi-screen (AR)" subtitle="What's real, and where it lives" >}}
+  {{< card link="multi-screen/" title="Multi-screen (XR)" subtitle="What's real, and where it lives" >}}
   {{< card link="linux-terminal/" title="Linux Terminal" subtitle="Enable the Debian VM" >}}
   {{< card link="desktop-wayland/" title="Wayland desktop" subtitle="labwc + input" >}}
   {{< card link="vscode/" title="VS Code" subtitle="Native GUI install" >}}
@@ -61,7 +61,7 @@ toc: false
 
 ## The stack at a glance
 
-![pocketdesk stack: Pixel host → AR display, Bluetooth keyboard, Android Linux Terminal → labwc + VS Code / code-server](/images/stack.svg)
+![pocketdesk stack: Pixel host → XR display, Bluetooth keyboard, Android Linux Terminal → labwc + VS Code / code-server](/images/stack.svg)
 
 > [!NOTE]
 > This is a community knowledge base, not affiliated with Google, Viture, or ProtoArc.
