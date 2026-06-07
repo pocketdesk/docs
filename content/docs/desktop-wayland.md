@@ -39,10 +39,9 @@ sudo apt install -y labwc waybar wofi foot
 echo 'export XKB_DEFAULT_LAYOUT=fr' >> ~/.profile
 ```
 
-{{< hint warning >}}
-If Android already forwards AZERTY characters (physical-keyboard layout set in Android),
-this is redundant but harmless. **Test both** — if you get QWERTY, this setting wins.
-{{< /hint >}}
+> [!WARNING]
+> If Android already forwards AZERTY characters (physical-keyboard layout set in Android),
+> this is redundant but harmless. **Test both** — if you get QWERTY, this setting wins.
 
 ## Start the desktop
 

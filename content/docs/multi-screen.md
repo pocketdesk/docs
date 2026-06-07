@@ -10,7 +10,7 @@ basic display; the differences that matter for coding are **spatial anchoring**
 (does the screen stay put as your head moves?) and **how multi-screen is achieved**
 (glasses hardware, companion app, or your window manager).
 
-> [!NOTE]
+> [!INFO]
 > **Specs & software are a snapshot — June 2026.** This space moves fast (Android XR is
 > landing). Re-verify before buying.
 
@@ -89,8 +89,7 @@ commute) **without depending on a companion app**, paired with WM tiling for mul
 The Viture pair are excellent DP monitors, but their multi-screen routes through the
 Android-oriented SpaceWalker app, which is a weaker match for the Linux-VM flow.
 
-{{< hint warning >}}
-**Caveats.** SpaceWalker targets Android content — its multi-screen may not wrap the
-Linux Terminal's graphical surface cleanly (test it). True OS-level multi-monitor from a
-phone awaits **Android XR**. Specs/prices above are June 2026 and change often.
-{{< /hint >}}
+> [!WARNING]
+> **Caveats.** SpaceWalker targets Android content — its multi-screen may not wrap the
+> Linux Terminal's graphical surface cleanly (test it). True OS-level multi-monitor from a
+> phone awaits **Android XR**. Specs/prices above are June 2026 and change often.

@@ -25,11 +25,10 @@ Linux Terminal (Wayland + GPU) is, as of 2026, effectively a Pixel feature.
 - External output is typically **1080p / 1440p** (no 4K60 here) — a perfect match for
   the glasses' 1200p panels.
 
-{{< hint warning >}}
-**Pixel 11 Pro XL is unreleased (June 2026).** Leaked highlights: Tensor G6 on TSMC
-2 nm, new OLED panels, MediaTek M90 modem, *smaller* battery offset by efficiency.
-Re-confirm SoC, battery, USB/DisplayPort and Android version at launch.
-{{< /hint >}}
+> [!WARNING]
+> **Pixel 11 Pro XL is unreleased (June 2026).** Leaked highlights: Tensor G6 on TSMC
+> 2 nm, new OLED panels, MediaTek M90 modem, *smaller* battery offset by efficiency.
+> Re-confirm SoC, battery, USB/DisplayPort and Android version at launch.
 
 ## Glasses — Viture Beast
 
@@ -60,9 +59,8 @@ Coding-specific buying notes:
 - Alternatives: **XK01 Plus** (backlit, no trackpad) for dark cabins; **XKM01**
   (keyboard + real folding mouse) if you prefer a mouse over a trackpad.
 
-{{< hint info >}}
-**All input pairs in Android, not in the VM.** Pair the keyboard/trackpad/mouse under
-*Settings → Connected devices*, set the physical layout to **French (AZERTY)** under
-*Settings → System → Languages → Physical keyboard*. Android forwards events into the
-Linux graphical surface — no `bluez` setup inside Debian.
-{{< /hint >}}
+> [!INFO]
+> **All input pairs in Android, not in the VM.** Pair the keyboard/trackpad/mouse under
+> *Settings → Connected devices*, set the physical layout to **French (AZERTY)** under
+> *Settings → System → Languages → Physical keyboard*. Android forwards events into the
+> Linux graphical surface — no `bluez` setup inside Debian.

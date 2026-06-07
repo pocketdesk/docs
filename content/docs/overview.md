@@ -30,11 +30,10 @@ Three recent pieces line up:
 | Linux/AVF | Mature | More mature (newer Android) |
 | Why it matters | Proven, buy today | Better **sustained** load (VM is CPU/thermal heavy) |
 
-{{< hint info >}}
-**Model-agnostic.** The whole software chain depends on **Android + AVF**, not the
-specific phone. Every guide works on the 10 Pro XL today and transposes unchanged to
-the 11 Pro XL at launch.
-{{< /hint >}}
+> [!INFO]
+> **Model-agnostic.** The whole software chain depends on **Android + AVF**, not the
+> specific phone. Every guide works on the 10 Pro XL today and transposes unchanged to
+> the 11 Pro XL at launch.
 
 ## Two paths to VS Code
 
