@@ -28,7 +28,7 @@ code-server --bind-addr 127.0.0.1:8080
 3. The Bluetooth keyboard and trackpad/mouse are handled by the browser — pointer and
    input "just work".
 
-> [!INFO]
+> [!NOTE]
 > **No native VM?** If `getprop ro.virtualization.supported` returned `false`, install a
 > Debian/Ubuntu userland via **Termux + proot-distro** and run `code-server` there. Same
 > browser-based result, no AVF required.

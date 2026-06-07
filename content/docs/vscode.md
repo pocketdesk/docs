@@ -28,7 +28,7 @@ code --ozone-platform-hint=auto --enable-features=UseOzonePlatform,WaylandWindow
 
 (or `--ozone-platform=wayland`).
 
-> [!INFO]
+> [!NOTE]
 > **GUI apps need a Pixel-class device.** The graphical Linux layer (X11/Wayland, GPU)
 > is, in 2026, effectively limited to Pixel. On other phones, VS Code GUI won't run
 > natively — use [code-server]({{< relref "code-server" >}}) instead.

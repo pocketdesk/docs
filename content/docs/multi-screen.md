@@ -10,7 +10,7 @@ basic display; the differences that matter for coding are **spatial anchoring**
 (does the screen stay put as your head moves?) and **how multi-screen is achieved**
 (glasses hardware, companion app, or your window manager).
 
-> [!INFO]
+> [!NOTE]
 > **Specs & software are a snapshot — June 2026.** This space moves fast (Android XR is
 > landing). Re-verify before buying.
 

@@ -59,7 +59,7 @@ Coding-specific buying notes:
 - Alternatives: **XK01 Plus** (backlit, no trackpad) for dark cabins; **XKM01**
   (keyboard + real folding mouse) if you prefer a mouse over a trackpad.
 
-> [!INFO]
+> [!NOTE]
 > **All input pairs in Android, not in the VM.** Pair the keyboard/trackpad/mouse under
 > *Settings → Connected devices*, set the physical layout to **French (AZERTY)** under
 > *Settings → System → Languages → Physical keyboard*. Android forwards events into the

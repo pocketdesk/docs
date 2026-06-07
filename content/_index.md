@@ -1,6 +1,6 @@
 ---
 title: "pocketdesk"
-type: docs
+toc: false
 ---
 
 # pocketdesk
@@ -29,14 +29,17 @@ Pixel 10 Pro XL (today) / 11 Pro XL (tomorrow)
 
 ## Start here
 
-- [Overview]({{< relref "docs/overview" >}}) — what this is and why it works
-- [Hardware]({{< relref "docs/hardware" >}}) — phone, glasses, keyboard
-- [Multi-screen (AR)]({{< relref "docs/multi-screen" >}}) — what's real, and where it lives
-- [Linux Terminal]({{< relref "docs/linux-terminal" >}}) — enable the Debian VM
-- [Wayland desktop]({{< relref "docs/desktop-wayland" >}}) — labwc + input
-- [VS Code]({{< relref "docs/vscode" >}}) — native GUI install
-- [code-server]({{< relref "docs/code-server" >}}) — the reliable fallback
-- [Troubleshooting]({{< relref "docs/troubleshooting" >}})
+{{< cards >}}
+  {{< card link="overview/" title="Overview" subtitle="What this is and why it works" >}}
+  {{< card link="hardware/" title="Hardware" subtitle="Phone, glasses, keyboard" >}}
+  {{< card link="multi-screen/" title="Multi-screen (AR)" subtitle="What's real, and where it lives" >}}
+  {{< card link="linux-terminal/" title="Linux Terminal" subtitle="Enable the Debian VM" >}}
+  {{< card link="desktop-wayland/" title="Wayland desktop" subtitle="labwc + input" >}}
+  {{< card link="vscode/" title="VS Code" subtitle="Native GUI install" >}}
+  {{< card link="code-server/" title="code-server" subtitle="The reliable fallback" >}}
+  {{< card link="troubleshooting/" title="Troubleshooting" subtitle="When things go sideways" >}}
+{{< /cards >}}
 
+> [!NOTE]
 > This is a community knowledge base, not affiliated with Google, Viture, or ProtoArc.
 > Pre-release device specs are leaks and must be re-confirmed at launch.

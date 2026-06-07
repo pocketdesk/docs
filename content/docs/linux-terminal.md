@@ -49,7 +49,7 @@ sudo apt update && sudo apt full-upgrade -y
 sudo apt install -y wget gpg curl ca-certificates
 ```
 
-> [!INFO]
+> [!NOTE]
 > Next: install a [Wayland desktop]({{< relref "desktop-wayland" >}}) and
 > [VS Code]({{< relref "vscode" >}}). If the graphical layer is unavailable or unstable,
 > jump straight to [code-server]({{< relref "code-server" >}}).

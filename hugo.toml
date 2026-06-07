@@ -1,34 +1,76 @@
 baseURL = "https://pocketdesk.github.io/docs/"
-locale = "en-us"
 title = "pocketdesk docs"
-theme = "hugo-book"
 
-# served under a subpath (/docs/) → canonify root-relative URLs (images, links)
+enableInlineShortcodes = true
+enableRobotsTXT = true
+enableGitInfo = true
+hasCJKLanguage = false
+
+# served under a subpath (/docs/) → keep root-relative URLs canonical
 canonifyURLs = true
 
-# hugo-book settings
-disablePathToLower = false
-enableGitInfo = true
-
-[params]
-  BookTheme = "auto"
-  BookToC = true
-  BookSection = "docs"
-  BookRepo = "https://github.com/pocketdesk/docs"
-  BookEditPath = "edit/main/content"
-  BookSearch = true
-  BookComments = false
+# flatten the "docs" content section so pages live at /docs/<name>/ (not /docs/docs/<name>/)
+[permalinks]
+  docs = "/:contentbasename/"
 
 [markup]
   [markup.goldmark.renderer]
     unsafe = true
   [markup.highlight]
-    style = "github-dark"
-    noClasses = true
-    tabWidth = 2
+    noClasses = false
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+
+[module]
+  [[module.imports]]
+    path = "github.com/imfing/hextra"
+
+[params]
+  description = "A pocket-sized Linux dev workstation — phone, AR glasses, and a folding keyboard. No laptop."
+
+  [params.navbar]
+    displayTitle = true
+    displayLogo = false
+
+  [params.theme]
+    # match the project landing page's sleek dark look
+    default = "dark"
+    displayToggle = true
+
+  [params.footer]
+    enable = true
+    displayCopyright = false
+    displayPoweredBy = true
+    width = "normal"
+
+  [params.editURL]
+    enable = true
+    base = "https://github.com/pocketdesk/docs/edit/main/content"
+
+  [params.page]
+    width = "normal"
+
+  [params.toc]
+    enable = true
 
 [menu]
-  [[menu.before]]
+  [[menu.main]]
+    name = "Documentation"
+    pageRef = "/"
+    weight = 1
+  [[menu.main]]
     name = "← Project home"
     url = "https://pocketdesk.github.io/"
-    weight = 1
+    weight = 2
+  [[menu.main]]
+    identifier = "github"
+    weight = 3
+    url = "https://github.com/pocketdesk"
+    [menu.main.params]
+      icon = "github"
+  [[menu.main]]
+    identifier = "search"
+    weight = 4
+    [menu.main.params]
+      type = "search"
