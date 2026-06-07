@@ -1,0 +1,12 @@
+/* Accent colour — match the pocketdesk landing page's brand blue (#4c6ef5). */
+:root {
+  --primary-hue: 228deg;
+  --primary-saturation: 89%;
+  --primary-lightness: 63%;
+}
+
+.dark {
+  --primary-hue: 228deg;
+  --primary-saturation: 89%;
+  --primary-lightness: 66%;
+}

@@ -1,31 +1,50 @@
 ---
 title: "pocketdesk"
+layout: hextra-home
 toc: false
 ---
 
-# pocketdesk
+{{< hextra/hero-badge >}}
+  <div class="hx:w-2 hx:h-2 hx:rounded-full hx:bg-primary-400"></div>
+  Pixel 10 Pro XL today · 11 Pro XL tomorrow
+{{< /hextra/hero-badge >}}
 
-**A pocket-sized Linux dev workstation — phone, AR glasses, and a folding keyboard.**
+<div class="hx:mt-6 hx:mb-6">
+{{< hextra/hero-headline >}}
+  Your phone is the&nbsp;workstation
+{{< /hextra/hero-headline >}}
+</div>
 
-pocketdesk documents a fully mobile development setup: code in **VS Code on Linux
-(Debian / Wayland)** running directly on a Pixel phone, displayed on **AR glasses**,
-driven by a **folding Bluetooth keyboard with trackpad**. No laptop required.
+<div class="hx:mb-12">
+{{< hextra/hero-subtitle >}}
+  Code in VS&nbsp;Code on Linux running on a Pixel, projected onto AR glasses,&nbsp;<br class="hx:hidden hx:sm:block" />driven by a folding keyboard. A real desktop — in your pocket. No laptop.
+{{< /hextra/hero-subtitle >}}
+</div>
 
-The hardware reference is the **Google Pixel 10 Pro XL today**, and the
-**Pixel 11 Pro XL tomorrow** (expected September 2026) — the software chain is
-identical on both, so every guide here is model-agnostic.
+<div class="hx:mb-6">
+{{< hextra/hero-button text="Get started" link="overview/" >}}
+</div>
 
-## The stack at a glance
+<div class="hx:mt-6"></div>
 
-![pocketdesk stack: Pixel host → AR display, Bluetooth keyboard, Android Linux Terminal → labwc + VS Code / code-server](/images/stack.svg)
-
-```
-Pixel 10 Pro XL (today) / 11 Pro XL (tomorrow)
-  ├─ Beast · Luma Ultra · XReal 1S → USB-C DisplayPort → 1200p virtual screen
-  ├─ ProtoArc XK01 TP   → Bluetooth (paired in Android) → keyboard + trackpad
-  └─ Android Linux Terminal (Debian VM, AVF/KVM)
-       └─ labwc + VS Code (Wayland)   [fallback: code-server in the browser]
-```
+{{< hextra/feature-grid >}}
+  {{< hextra/feature-card
+    title="Phone is the computer"
+    subtitle="Android's Linux Terminal runs a full Debian VM (AVF/KVM). On Pixel it includes GPU-accelerated GUI apps — a real VS Code window."
+  >}}
+  {{< hextra/feature-card
+    title="Glasses are the screen"
+    subtitle="USB-C DisplayPort drives the AR glasses as a 1200p wearable monitor — Viture Beast / Luma Ultra or XREAL 1S."
+  >}}
+  {{< hextra/feature-card
+    title="Folding keyboard"
+    subtitle="A tri-fold Bluetooth keyboard with trackpad pairs in Android and is forwarded into the VM. One device replaces keyboard + mouse."
+  >}}
+  {{< hextra/feature-card
+    title="Linux + VS Code"
+    subtitle="labwc (Wayland) + VS Code natively, or code-server in the browser as a rock-solid fallback. Tile windows for multi-pane."
+  >}}
+{{< /hextra/feature-grid >}}
 
 ## Start here
 
@@ -39,6 +58,10 @@ Pixel 10 Pro XL (today) / 11 Pro XL (tomorrow)
   {{< card link="code-server/" title="code-server" subtitle="The reliable fallback" >}}
   {{< card link="troubleshooting/" title="Troubleshooting" subtitle="When things go sideways" >}}
 {{< /cards >}}
+
+## The stack at a glance
+
+![pocketdesk stack: Pixel host → AR display, Bluetooth keyboard, Android Linux Terminal → labwc + VS Code / code-server](/images/stack.svg)
 
 > [!NOTE]
 > This is a community knowledge base, not affiliated with Google, Viture, or ProtoArc.
