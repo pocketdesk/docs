@@ -1,0 +1,34 @@
+baseURL = "https://pocketdesk.github.io/docs/"
+locale = "en-us"
+title = "pocketdesk docs"
+theme = "hugo-book"
+
+# served under a subpath (/docs/) → canonify root-relative URLs (images, links)
+canonifyURLs = true
+
+# hugo-book settings
+disablePathToLower = false
+enableGitInfo = true
+
+[params]
+  BookTheme = "auto"
+  BookToC = true
+  BookSection = "docs"
+  BookRepo = "https://github.com/pocketdesk/docs"
+  BookEditPath = "edit/main/content"
+  BookSearch = true
+  BookComments = false
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.highlight]
+    style = "github-dark"
+    noClasses = true
+    tabWidth = 2
+
+[menu]
+  [[menu.before]]
+    name = "← Project home"
+    url = "https://pocketdesk.github.io/"
+    weight = 1
