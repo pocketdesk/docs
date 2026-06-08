@@ -7,6 +7,7 @@ weight: 2
 |---|---|---|
 | **Pixel 10 Pro XL** *(today)* / **11 Pro XL** *(tomorrow)* | The computer: desktop mode + Linux VM | — |
 | **Viture Beast** | Wearable display, 1920×1200/eye, 120 Hz | USB-C DisplayPort Alt Mode |
+| **USB-C glasses + charge adapter** *(recommended)* | Splits the single port: DP video to the glasses **+** PD charging to the phone | Phone ↔ glasses, plus a PD charger |
 | **ProtoArc XK01 TP** *(QWERTY · UK · AZERTY)* | Keyboard + trackpad (replaces the mouse) | Bluetooth (paired in Android) |
 | *(optional)* Bluetooth mouse | Dedicated pointer | Bluetooth (in Android) |
 
@@ -151,3 +152,32 @@ is why a real folding keyboard beats any flat-surface-plus-haptics combo for sus
 > under *Settings → System → Languages → Physical keyboard*. Android forwards events into
 > the Linux graphical surface — no `bluez` setup inside Debian. To override the keymap
 > just for Linux apps, run `setxkbmap <layout>` in the VM session.
+
+## Power — feeding the phone *and* the glasses on one port
+
+The Pixel has a **single USB-C port**, and the XR display glasses both **occupy it**
+(DisplayPort Alt Mode) and **draw their power from it** (they're bus-powered). Add the
+Debian VM plus driving an external display — the heaviest load the phone ever sees — and it
+runs hot and drains fast, with **no free port left for a charger**.
+
+The fix is a small **USB-C adapter that splits video and power**: it passes DP Alt Mode
+video through to the glasses **and** takes a charger on a PD-input port, so the phone (and
+the glasses) stay powered while connected. These are sold purpose-built for XR glasses:
+
+| Adapter | Charge passthrough | Refresh | Notes |
+|---|---|---|---|
+| **XREAL Hub** (X7007) | 45 W PD | **120 Hz** | Purpose-built: phone on one side, glasses on the other, charger on the PD port |
+| **VITURE USB-C to Glasses + Charging Adapter** | PD passthrough | up to 120 Hz | Viture's own, tuned for Beast / Luma |
+| **ANQUORA AR-glasses hub** | up to **100 W** PD | 60–120 Hz (by model) | Third-party; works with XREAL / Viture / Rokid |
+| Generic **USB-C DP-Alt + PD hub** | PD-IN | verify 120 Hz | Any hub with *video out + PD input* — cheaper, but confirm the refresh rate |
+
+Buying notes:
+
+- Choose one that keeps your glasses' **refresh rate (120 Hz)** — some cheap adapters cap at 60 Hz.
+- Feed the PD input with a **≥ 45 W** charger so charging stays *net positive* under VM load.
+- A **PD power bank** on the input gives you fully untethered sessions (train, plane, café).
+
+> [!NOTE]
+> Without this split, expect the phone to **drain** mid-session: the glasses sip power off
+> the same cable, and the VM + external display are the most demanding thing you'll run on
+> it. The adapter is what makes a multi-hour coding session realistic.
