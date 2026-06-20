@@ -19,6 +19,6 @@ weight: 8
 - **Full XFCE** is possible but DIY; labwc / Weston / Sway are lighter and sufficient.
 - **AVF** is a flagship Pixel feature (10 and 11) but depends on the build — verify on
   a fresh device.
-- **Pixel 11 Pro XL is unreleased** (June 2026): specs are leaks. Re-confirm
+- **Pixel 11 Pro is unreleased** (June 2026): specs are leaks. Re-confirm
   SoC / battery / USB-DisplayPort / Android version at launch (Sept 2026).
 - Everything here moves fast across Android 16/17 — re-verify after major updates.

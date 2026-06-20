@@ -20,7 +20,7 @@ device category. Each is reused under **CC BY-SA** with attribution below.
 
 - **Nreal** is the former name of **XREAL** — the Nreal Light photo represents the
   XR display glasses category, not the XREAL 1S / Viture Beast / Luma Ultra specifically.
-- The Pixel render is the **9 Pro**; the 10 Pro XL and 11 Pro XL share the family design.
+- The Pixel render is the **9 Pro**; the 10 Pro and 11 Pro share the family design.
 - The Microsoft keyboard is a **bi-fold** example; the ProtoArc XK01 TP is a **tri-fold**
   with an integrated trackpad.
 

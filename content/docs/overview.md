@@ -21,7 +21,7 @@ Three recent pieces line up:
 
 ## Device targets
 
-| | Pixel 10 Pro XL (today) | Pixel 11 Pro XL (tomorrow) |
+| | Pixel 10 Pro (today) | Pixel 11 Pro (tomorrow) |
 |---|---|---|
 | Status | Available now | Expected **Sep 2026** (leaks) |
 | SoC | Tensor G5 (3 nm) | **Tensor G6 (2 nm)** — ~15-20% more efficient |
@@ -30,8 +30,8 @@ Three recent pieces line up:
 
 > [!NOTE]
 > **Model-agnostic.** The whole software chain depends on **Android + AVF**, not the
-> specific phone. Every guide works on the 10 Pro XL today and transposes unchanged to
-> the 11 Pro XL at launch.
+> specific phone. Every guide works on the 10 Pro today and transposes unchanged to
+> the 11 Pro at launch.
 
 ## Two paths to VS Code
 

@@ -7,8 +7,8 @@
 
   <!-- host -->
   <rect x="200" y="24" width="360" height="66" rx="12" fill="#4c6ef5"/>
-  <text x="380" y="52" text-anchor="middle" fill="#fff" font-size="15" font-weight="600">Pixel 10 Pro XL — today</text>
-  <text x="380" y="74" text-anchor="middle" fill="#dbe4ff" font-size="13">11 Pro XL — tomorrow (Tensor G6)</text>
+  <text x="380" y="52" text-anchor="middle" fill="#fff" font-size="15" font-weight="600">Pixel 10 Pro — today</text>
+  <text x="380" y="74" text-anchor="middle" fill="#dbe4ff" font-size="13">11 Pro — tomorrow (Tensor G6)</text>
 
   <!-- charger / power source -->
   <rect x="20" y="28" width="150" height="46" rx="10" fill="#e8590c"/>
