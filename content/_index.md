@@ -6,7 +6,7 @@ toc: false
 
 {{< hextra/hero-badge >}}
   <div class="hx:w-2 hx:h-2 hx:rounded-full hx:bg-primary-400"></div>
-  Pixel 10 Pro XL today · 11 Pro XL tomorrow
+  Pixel 10 Pro today · 11 Pro tomorrow
 {{< /hextra/hero-badge >}}
 
 <div class="hx:mt-6 hx:mb-6">

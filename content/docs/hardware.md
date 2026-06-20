@@ -5,7 +5,7 @@ weight: 2
 
 | Item | Role | Connection |
 |---|---|---|
-| **Pixel 10 Pro XL** *(today)* / **11 Pro XL** *(tomorrow)* | The computer: desktop mode + Linux VM | — |
+| **Pixel 10 Pro** *(today)* / **11 Pro** *(tomorrow)* | The computer: desktop mode + Linux VM | — |
 | **Viture Beast** | Wearable display, 1920×1200/eye, 120 Hz | USB-C DisplayPort Alt Mode |
 | **USB-C glasses + charge adapter** *(recommended)* | Splits the single port: DP video to the glasses **+** PD charging to the phone | Phone ↔ glasses, plus a PD charger |
 | **ProtoArc XK01 TP** *(QWERTY · UK · AZERTY)* | Keyboard + trackpad (replaces the mouse) | Bluetooth (paired in Android) |
@@ -13,10 +13,10 @@ weight: 2
 
 ## Phone
 
-{{< figure src="/images/products/pixel-9-pro.svg" alt="Google Pixel Pro front render" width="190" caption="*Illustrative* — Pixel 9 Pro render; the 10/11 Pro XL share the family design." attr="Mliu92, CC BY-SA 4.0 (Wikimedia Commons)" attrlink="https://commons.wikimedia.org/wiki/File:Google_Pixel_9_(Obsidian)_front.svg" >}}
+{{< figure src="/images/products/pixel-9-pro.svg" alt="Google Pixel Pro front render" width="190" caption="*Illustrative* — Pixel 9 Pro render; the 10/11 Pro share the family design." attr="Mliu92, CC BY-SA 4.0 (Wikimedia Commons)" attrlink="https://commons.wikimedia.org/wiki/File:Google_Pixel_9_(Obsidian)_front.svg" >}}
 
-The reference device is the largest Pixel Pro: **Pixel 10 Pro XL** now, **Pixel 11
-Pro XL** when it ships (~September 2026). Pixel matters here because the **graphical**
+The reference device is the largest Pixel Pro: **Pixel 10 Pro** now, **Pixel 11
+Pro** when it ships (~September 2026). Pixel matters here because the **graphical**
 Linux Terminal (Wayland + GPU) is, as of 2026, effectively a Pixel feature.
 
 - Pixel 8 / 9 / 10 / 11 all expose **USB-C DisplayPort Alt Mode** → external display.
@@ -32,7 +32,7 @@ Linux Terminal (Wayland + GPU) is, as of 2026, effectively a Pixel feature.
 > glasses depend on. See the keyboard alternatives below.
 
 > [!WARNING]
-> **Pixel 11 Pro XL is unreleased (June 2026).** Leaked highlights: Tensor G6 on TSMC
+> **Pixel 11 Pro is unreleased (June 2026).** Leaked highlights: Tensor G6 on TSMC
 > 2 nm, new OLED panels, MediaTek M90 modem, *smaller* battery offset by efficiency.
 > Re-confirm SoC, battery, USB/DisplayPort and Android version at launch.
 
